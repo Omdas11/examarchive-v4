@@ -87,6 +87,8 @@ Once the app is running, any change you save to `App.js` will automatically hot-
 ```
 examarchive-v4/
 ├── App.js          ← All screens & navigation (single file)
+├── app.json        ← Expo app configuration (name, icon, platform)
+├── babel.config.js ← Babel config required by Expo's bundler
 ├── package.json    ← Dependencies
 ├── SETUP.md        ← This file
 └── README.md

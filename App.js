@@ -17,7 +17,6 @@ import {
   ScrollView,
   StyleSheet,
   StatusBar,
-  FlatList,
 } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
@@ -29,10 +28,10 @@ import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 // ─────────────────────────────────────────────────────────────────────────────
 const C = {
   primary: "#ff5252",       // accent red (dark-theme primary from V3)
-  primaryDark: "#d32f2f",   // deeper red for pressed states
+  primaryDark: "#d32f2f",   // deeper red for pressed / danger states (reserved)
   bg: "#121212",            // root background
   surface: "#1e1e1e",       // card / sheet surface
-  surfaceAlt: "#262626",    // slightly lighter surface
+  surfaceAlt: "#262626",    // slightly lighter surface (reserved)
   border: "#2a2a2a",        // subtle border
   text: "#eaeaea",          // primary text
   textMuted: "#9ca3af",     // secondary / placeholder text
